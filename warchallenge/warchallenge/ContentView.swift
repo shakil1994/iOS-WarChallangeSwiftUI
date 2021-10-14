@@ -72,8 +72,7 @@ struct ContentView: View {
                             .foregroundColor((Color.white))
                             .padding(.bottom, 10.0)
                         Text(String(cpuScore))
-                            .font(.largeTitle)
-                            .foregroundColor((Color.white))
+                            .font(.largeTitle).foregroundColor((Color.white))
                     }
                     Spacer()
                 }
