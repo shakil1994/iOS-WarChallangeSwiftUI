@@ -17,7 +17,8 @@ struct Home: View {
     var body: some View {
         ZStack{
             Image("background")
-                .aspectRatio(contentMode: .fill)
+                .resizable()
+                .frame(height: UIScreen.main.bounds.height)
                 .ignoresSafeArea()
             
             VStack{
